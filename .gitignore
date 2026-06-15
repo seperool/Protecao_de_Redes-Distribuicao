@@ -1,0 +1,48 @@
+*.html
+*.mp4
+*.m4a
+
+# ==========================================
+# 1. QUARTO & JUPYTER (Arquivos de Compilação)
+# ==========================================
+.quarto/
+*_files/
+*_cache/
+.jupyter_cache/
+html_artifacts/
+
+# Evita salvar formatos intermediários se você compilar para PDF
+*.html
+*.json
+
+# ==========================================
+# 2. LATEX (Arquivos auxiliares de renderização do PDF)
+# ==========================================
+*.aux
+*.fls
+*.fdb_latexmk
+*.log
+*.synctex.gz
+*.toc
+*.blg
+*.bbl
+
+# ==========================================
+# 3. PYTHON & CONDA
+# ==========================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.conda/
+env/
+venv/
+.env
+
+# ==========================================
+# 4. SISTEMA OPERACIONAL & VS CODE
+# ==========================================
+.vscode/
+.DS_Store
+Thumbs.db
