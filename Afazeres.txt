@@ -1,0 +1,58 @@
+===================================================================
+                   PLANEJAMENTO DE EXECUÇÃO
+===================================================================
+TRABALHO: Trabalho 4 - Proteção em Redes de Distribuição com IA
+ESTUDANTE: Sergio Pedro
+ÚLTIMA ATUALIZAÇÃO: 15/06/2026
+
+LEGENDA DE SÍMBOLOS:
+  [ ] Tarefa pendente (não iniciada)
+  [/] Tarefa em andamento
+  [X] Tarefa concluída
+  [!] Atenção / Ponto crítico
+
+===================================================================
+
+[ ] ETAPA 1: CONSTRUÇÃO DA BASE DE CONHECIMENTO
+    [ ] Definir e baixar as 2 fontes complementares sobre chaves fusíveis e religadores
+    [ ] Organizar a pasta 'Fontes/' com todos os PDFs (Slides, Livro, PRODIST, Extras)
+    [ ] Carregar todos os documentos no NotebookLM
+    [ ] Estruturar as citações no arquivo 'Quarto/bibliografia.bib'
+
+[ ] ETAPA 2: FLASHCARDS (NOTEBOOKLM)
+    [ ] Gerar os flashcards no NotebookLM sobre proteção (elos fusíveis e religadores)
+    [ ] Estudar os cartões e extrair o texto/dados gerados para a pasta 'Data/'
+    [ ] Contabilizar o total de flashcards gerados
+    [ ] Identificar quais conceitos apareceram com maior frequência
+    [ ] Avaliar criticamente a utilidade dos flashcards para a revisão
+    [ ] Redigir a seção correspondente no 'Trabalho_4.qmd' (Prompt + Análise)
+
+[ ] ETAPA 3: TESTE DE CONHECIMENTO (NOTEBOOKLM)
+    [ ] Gerar o questionário com no mínimo 10 questões no NotebookLM
+    [ ] Responder ao teste e salvar as perguntas e respostas na pasta 'Data/'
+    [ ] Contabilizar o número de acertos
+    [ ] Mapear os assuntos e conceitos que apresentaram maior dificuldade
+    [ ] Avaliar se as questões mediram adequadamente o conteúdo técnico
+    [ ] Redigir a seção correspondente no 'Trabalho_4.qmd' (Prompt + Análise)
+
+[ ] ETAPA 4: VÍDEO COMPLEMENTAR
+    [ ] Pesquisar e selecionar um vídeo técnico de qualidade no YouTube sobre o tema
+    [ ] Assistir ao vídeo fazendo anotações sobre pontos extras ou divergências
+    [ ] Justificar a escolha do vídeo e o motivo de ter chamado a atenção
+    [ ] Identificar o que o vídeo aprofundou que a IA não explorou bem
+    [ ] Apontar divergências ou diferenças de abordagem entre o vídeo e o NotebookLM
+    [ ] Redigir a seção correspondente no 'Trabalho_4.qmd' (Prompt + Análise)
+
+[ ] ETAPA 5: REFLEXÃO FINAL E CONCLUSÃO
+    [ ] Comparar a eficiência dos 4 recursos (texto, flashcards, teste e vídeo)
+    [ ] Listar as principais vantagens e limitações da IA para o estudo de engenharia
+    [ ] Justificar a aplicação (ou não) dessa metodologia em outras disciplinas
+    [ ] Escrever a introdução e a conclusão do relatório no 'Trabalho_4.qmd'
+    [ ] Revisar a formatação das referências bibliográficas
+
+[ ] ETAPA 6: LAPIDAÇÃO E REVISÃO FINAL (MANDATÓRIO)
+    [!] Remover/comentar os '\newpage' excessivos para ajuste de layout
+    [!] Controlar o tamanho do texto para respeitar o limite rígido de 2 páginas
+    [ ] Renderizar o PDF via Quarto e verificar a quebra de páginas e estética
+    [ ] Atualizar o 'Readme.md' com a descrição do projeto
+    [ ] Subir a versão final e a pasta organizada para o repositório do GitHub
