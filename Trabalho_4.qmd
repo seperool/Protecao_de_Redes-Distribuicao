@@ -80,6 +80,10 @@ import json
 
 ### Perguntas e Respostas – Análise Flashcards
 
+1. Quantos flashcards foram gerados?
+2. Quais conceitos apareceram com mais frequência?
+3. Os flashcards foram úteis para revisar o conteúdo? Justifique.
+
 \newpage
 
 ## Teste de Conhecimento
@@ -87,6 +91,10 @@ import json
 ### Prompt
 
 ### Perguntas e Respostas – Análise Teste de Conhecimento
+
+1. Quantas questões você acertou?
+2. Quais assuntos apresentaram maior dificuldade?
+3. As questões avaliaram adequadamente os conceitos estudados? Explique.
 
 \newpage
 
@@ -96,11 +104,19 @@ import json
 
 ### Perguntas e Respostas – Análise Vídeo Complementar
 
+1. Qual vídeo foi escolhido e por que ele chamou sua atenção?
+2. O vídeo complementou ou aprofundou algum aspecto que não foi suficientemente explorado pelo NotebookLM?
+3. Houve alguma divergência ou diferença de abordagem entre o vídeo e os materiais utilizados no NotebookLM?
+
 \newpage
 
-# Reflexão Final
+# REFLEXÃO FINAL
 
 ## Perguntas e Respostas
+
+1. Entre os recursos utilizados (texto, flashcards, teste e vídeo), qual foi o mais eficiente para sua aprendizagem? Justifique.
+2. Quais são as principais vantagens e limitações do uso de IA como ferramenta de estudo para temas técnicos?
+3. Você utilizaria essa metodologia em outras disciplinas? Por quê?
 
 \newpage
 
