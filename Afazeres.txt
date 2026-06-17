@@ -3,7 +3,7 @@
 ===================================================================
 TRABALHO: Trabalho 4 - Proteção em Redes de Distribuição com IA
 ESTUDANTE: Sergio Pedro
-ÚLTIMA ATUALIZAÇÃO: 15/06/2026
+ÚLTIMA ATUALIZAÇÃO: 16/06/2026
 
 LEGENDA DE SÍMBOLOS:
   [ ] Tarefa pendente (não iniciada)
@@ -13,11 +13,11 @@ LEGENDA DE SÍMBOLOS:
 
 ===================================================================
 
-[ ] ETAPA 1: CONSTRUÇÃO DA BASE DE CONHECIMENTO
-    [ ] Definir e baixar as 2 fontes complementares sobre chaves fusíveis e religadores
-    [ ] Organizar a pasta 'Fontes/' com todos os PDFs (Slides, Livro, PRODIST, Extras)
-    [ ] Carregar todos os documentos no NotebookLM
-    [ ] Estruturar as citações no arquivo 'Quarto/bibliografia.bib'
+[/] ETAPA 1: CONSTRUÇÃO DA BASE DE CONHECIMENTO
+    [/] Definir e baixar as 2 fontes complementares sobre chaves fusíveis e religadores
+    [/] Organizar a pasta 'Fontes/' com todos os PDFs (Slides, Livro, PRODIST, Extras)
+    [/] Carregar todos os documentos no NotebookLM
+    [/] Estruturar as citações no arquivo 'Quarto/bibliografia.bib'
 
 [ ] ETAPA 2: FLASHCARDS (NOTEBOOKLM)
     [ ] Gerar os flashcards no NotebookLM sobre proteção (elos fusíveis e religadores)
