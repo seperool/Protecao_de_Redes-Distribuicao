@@ -3,7 +3,7 @@
 ===================================================================
 TRABALHO: Trabalho 4 - Proteção em Redes de Distribuição com IA
 ESTUDANTE: Sergio Pedro
-ÚLTIMA ATUALIZAÇÃO: 16/06/2026
+ÚLTIMA ATUALIZAÇÃO: 17/06/2026
 
 LEGENDA DE SÍMBOLOS:
   [ ] Tarefa pendente (não iniciada)
@@ -49,10 +49,3 @@ LEGENDA DE SÍMBOLOS:
     [ ] Justificar a aplicação (ou não) dessa metodologia em outras disciplinas
     [ ] Escrever a introdução e a conclusão do relatório no 'Trabalho_4.qmd'
     [ ] Revisar a formatação das referências bibliográficas
-
-[ ] ETAPA 6: LAPIDAÇÃO E REVISÃO FINAL (MANDATÓRIO)
-    [!] Remover/comentar os '\newpage' excessivos para ajuste de layout
-    [!] Controlar o tamanho do texto para respeitar o limite rígido de 2 páginas
-    [ ] Renderizar o PDF via Quarto e verificar a quebra de páginas e estética
-    [ ] Atualizar o 'Readme.md' com a descrição do projeto
-    [ ] Subir a versão final e a pasta organizada para o repositório do GitHub
