@@ -3,7 +3,7 @@
 ===================================================================
 TRABALHO: Trabalho 4 - Proteção em Redes de Distribuição com IA
 ESTUDANTE: Sergio Pedro
-ÚLTIMA ATUALIZAÇÃO: 18/06/2026
+ÚLTIMA ATUALIZAÇÃO: 19/06/2026
 
 LEGENDA DE SÍMBOLOS:
   [ ] Tarefa pendente (não iniciada)
@@ -49,3 +49,15 @@ LEGENDA DE SÍMBOLOS:
     [ ] Justificar a aplicação (ou não) dessa metodologia em outras disciplinas
     [ ] Escrever a introdução e a conclusão do relatório no 'Trabalho_4.qmd'
     [ ] Revisar a formatação das referências bibliográficas
+
+===================================================================
+                     COMENTÁRIOS E NOTAS DE CAMPO
+===================================================================
+* 19/06/2026: Resolvida a dúvida conceitual sobre fluxo de rede. 
+  - Montante = Direção da Subestação (Elo Protegido).
+  - Jusante = Direção da Carga (Elo Protetor).
+* 19/06/2026: Arquivo do livro do Mamede renomeado com sucesso e 
+  adicionado ao .bib (ano de edição confirmado como 2013).
+* 19/06/2026: Organizar manuais técnicos da distribuidora Energisa.
+* 
+===================================================================
