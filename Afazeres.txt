@@ -3,7 +3,7 @@
 ===================================================================
 TRABALHO: Trabalho 4 - Proteção em Redes de Distribuição com IA
 ESTUDANTE: Sergio Pedro
-ÚLTIMA ATUALIZAÇÃO: 17/06/2026
+ÚLTIMA ATUALIZAÇÃO: 18/06/2026
 
 LEGENDA DE SÍMBOLOS:
   [ ] Tarefa pendente (não iniciada)
