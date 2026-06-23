@@ -3,7 +3,7 @@
 ===================================================================
 TRABALHO: Trabalho 4 - Proteção em Redes de Distribuição com IA
 ESTUDANTE: Sergio Pedro
-ÚLTIMA ATUALIZAÇÃO: 22/06/2026
+ÚLTIMA ATUALIZAÇÃO: 23/06/2026
 
 LEGENDA DE SÍMBOLOS:
   [ ] Tarefa pendente (não iniciada)
@@ -20,19 +20,19 @@ LEGENDA DE SÍMBOLOS:
     [x] Estruturar as citações no arquivo 'Quarto/bibliografia.bib'
 
 [/] ETAPA 2: FLASHCARDS (NOTEBOOKLM)
-    [/] Gerar os flashcards no NotebookLM sobre proteção (elos fusíveis e religadores)
+    [x] Gerar os flashcards no NotebookLM sobre proteção (elos fusíveis e religadores)
     [/] Estudar os cartões e extrair o texto/dados gerados para a pasta 'Data/'
     [/] Contabilizar o total de flashcards gerados
     [/] Identificar quais conceitos apareceram com maior frequência
     [/] Avaliar criticamente a utilidade dos flashcards para a revisão
     [/] Redigir a seção correspondente no 'Trabalho_4.qmd' (Prompt + Análise)
 
-[ ] ETAPA 3: TESTE DE CONHECIMENTO (NOTEBOOKLM)
-    [ ] Gerar o questionário com no mínimo 10 questões no NotebookLM
-    [ ] Responder ao teste e salvar as perguntas e respostas na pasta 'Data/'
-    [ ] Contabilizar o número de acertos
-    [ ] Mapear os assuntos e conceitos que apresentaram maior dificuldade
-    [ ] Avaliar se as questões mediram adequadamente o conteúdo técnico
+[/] ETAPA 3: TESTE DE CONHECIMENTO (NOTEBOOKLM)
+    [x] Gerar o questionário com no mínimo 10 questões no NotebookLM
+    [/] Responder ao teste e salvar as perguntas e respostas na pasta 'Data/'
+    [/] Contabilizar o número de acertos
+    [/] Mapear os assuntos e conceitos que apresentaram maior dificuldade
+    [/] Avaliar se as questões mediram adequadamente o conteúdo técnico
     [ ] Redigir a seção correspondente no 'Trabalho_4.qmd' (Prompt + Análise)
 
 [ ] ETAPA 4: VÍDEO COMPLEMENTAR
@@ -62,4 +62,5 @@ LEGENDA DE SÍMBOLOS:
   - Reduzido de 5 para 3 normas da Energisa (ETU-107.1, ETU-122.1, ETU-127).
   - Entradas BibTeX geradas e adicionadas à biblioteca.
 * 22/06/2026: Restringir os capítulos nas fontes, antes de gerar os prompts.
+* 23/06/2026: Selecionar video, introdução e fontes.
 ===================================================================
