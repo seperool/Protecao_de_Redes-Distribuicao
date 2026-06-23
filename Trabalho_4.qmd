@@ -88,9 +88,9 @@ Ao gerar os artefatos, restrinja rigidamente a análise das suas fontes aos segu
 
   3. Do livro de João Mamede Filho (Manual de Equipamentos Elétricos):
 
-    * Capítulo 2 inteiro, com foco absoluto na Seção 3 e Seção 3.2 (Tipos de elo-fusível: K, H, T).
+     * Capítulo 2 inteiro, com foco absoluto na Seção 3 e Seção 3.2 (Tipos de elo-fusível: K, H, T).
 
-    * Capítulo 17, seções 5.1 (Coordenação Religador x Elo Fusível) e 5.3 (Coordenação entre Religadores).
+     * Capítulo 17, seções 5.1 (Coordenação Religador x Elo Fusível) e 5.3 (Coordenação entre Religadores).
 
   4. Das especificações da Energisa: Parâmetros e diretrizes das normas ETU-107.1, ETU-122.1 e ETU-127.
 
@@ -102,9 +102,14 @@ VERSO: [Resposta técnica detalhada, citando os critérios operacionais das Aula
 
 Foque na aplicação prática de engenharia, seletividade, componentes de manobra e comportamento das curvas.
 
+\newpage
+
 ### Perguntas e Respostas – Análise Flashcards
 
 1. Quantos flashcards foram gerados?
+   
+   Resposta: 72 cartões
+
 2. Quais conceitos apareceram com mais frequência?
 3. Os flashcards foram úteis para revisar o conteúdo? Justifique.
 
@@ -113,6 +118,30 @@ Foque na aplicação prática de engenharia, seletividade, componentes de manobr
 ## Teste de Conhecimento
 
 ### Prompt
+
+Atue como um Engenheiro de Distribuição sênior e professor de Proteção de Sistemas Elétricos, focado na elaboração de exames de alto nível para engenharia.
+
+Com base estritamente no cruzamento das fontes indicadas:
+
+  1. Livro do Mamede: Capítulo 2 (Chaves e Elos Fusíveis - Seções 3 e 3.2) e Capítulo 17 (Coordenação Religadores/Elos - Seções 5.1 e 5.3).
+
+  2. Slides das Aulas 5 e 6: Definições, componentes práticos (cartucho, vara de manobra), ciclo de 4 tempos, montante/jusante e coordenação em ramais/transformadores.
+
+  3. Especificações da Energisa: Parâmetros operacionais e técnicos das normas ETU-107.1, ETU-122.1 e ETU-127.
+
+Elabore um Teste de Conhecimento contendo exatamente 10 questões inéditas de múltipla escolha.
+
+Regras de estrutura das questões:
+
+  * Cada questão deve ter 5 alternativas (de A a E), com apenas uma resposta correta.
+
+  * As questões devem ser fortemente técnicas, abordando interpretação de curvas Tempo x Corrente (TCC), velocidade relativa dos elos (K, T, H), critérios de coordenação pelo tempo de interrupção total e mínima fusão, e a lógica dos ciclos rápido/lento dos religadores.
+
+  * Gabarito: Ao final do bloco de 10 questões (e não após cada uma), apresente o gabarito acompanhado de uma justificativa/resolução técnica detalhada para cada resposta, citando os critérios teóricos ou normativos que validam a alternativa correta e invalidam as demais.
+
+Não use questões puramente conceituais ou óbvias. Foque em cenários de análise de projeto de proteção.
+
+\newpage
 
 ### Perguntas e Respostas – Análise Teste de Conhecimento
 
