@@ -3,7 +3,7 @@
 ===================================================================
 TRABALHO: Trabalho 4 - Proteção em Redes de Distribuição com IA
 ESTUDANTE: Sergio Pedro
-ÚLTIMA ATUALIZAÇÃO: 21/06/2026
+ÚLTIMA ATUALIZAÇÃO: 22/06/2026
 
 LEGENDA DE SÍMBOLOS:
   [ ] Tarefa pendente (não iniciada)
@@ -19,13 +19,13 @@ LEGENDA DE SÍMBOLOS:
     [x] Carregar todos os documentos no NotebookLM
     [x] Estruturar as citações no arquivo 'Quarto/bibliografia.bib'
 
-[ ] ETAPA 2: FLASHCARDS (NOTEBOOKLM)
-    [ ] Gerar os flashcards no NotebookLM sobre proteção (elos fusíveis e religadores)
-    [ ] Estudar os cartões e extrair o texto/dados gerados para a pasta 'Data/'
-    [ ] Contabilizar o total de flashcards gerados
-    [ ] Identificar quais conceitos apareceram com maior frequência
-    [ ] Avaliar criticamente a utilidade dos flashcards para a revisão
-    [ ] Redigir a seção correspondente no 'Trabalho_4.qmd' (Prompt + Análise)
+[/] ETAPA 2: FLASHCARDS (NOTEBOOKLM)
+    [/] Gerar os flashcards no NotebookLM sobre proteção (elos fusíveis e religadores)
+    [/] Estudar os cartões e extrair o texto/dados gerados para a pasta 'Data/'
+    [/] Contabilizar o total de flashcards gerados
+    [/] Identificar quais conceitos apareceram com maior frequência
+    [/] Avaliar criticamente a utilidade dos flashcards para a revisão
+    [/] Redigir a seção correspondente no 'Trabalho_4.qmd' (Prompt + Análise)
 
 [ ] ETAPA 3: TESTE DE CONHECIMENTO (NOTEBOOKLM)
     [ ] Gerar o questionário com no mínimo 10 questões no NotebookLM
@@ -61,4 +61,5 @@ LEGENDA DE SÍMBOLOS:
 * 21/06/2026: Filtragem com NotebookLM concluída com sucesso. 
   - Reduzido de 5 para 3 normas da Energisa (ETU-107.1, ETU-122.1, ETU-127).
   - Entradas BibTeX geradas e adicionadas à biblioteca.
+* 22/06/2026: Restringir os capítulos nas fontes, antes de gerar os prompts.
 ===================================================================
