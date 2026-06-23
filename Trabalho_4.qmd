@@ -78,6 +78,30 @@ import json
 
 ### Prompt
 
+Atue como um Engenheiro de Distribuição sênior e professor de Proteção de Sistemas Elétricos.
+
+Ao gerar os artefatos, restrinja rigidamente a análise das suas fontes aos seguintes escopos cruzados:
+
+  1. Do slide 'Aula 5 - elo fusível': Definição e componentes práticos (Chave fusível religadora, vara de manobra, cartucho/porta-fusível e tipos). Tipos de elos, curvas de atuação tempo-corrente (TCC), conceitos de montante e jusante, tabelas e regras práticas de coordenação em ramais e coordenação de transformadores.
+
+  2. Do slide 'Aula 6 - religador': Definição, ciclo de operação em 4 tempos, curvas TCC, coordenação Religador x Elo-fusível geral e coordenação Religador x Elo-fusível perto da carga.
+
+  3. Do livro de João Mamede Filho (Manual de Equipamentos Elétricos):
+
+    * Capítulo 2 inteiro, com foco absoluto na Seção 3 e Seção 3.2 (Tipos de elo-fusível: K, H, T).
+
+    * Capítulo 17, seções 5.1 (Coordenação Religador x Elo Fusível) e 5.3 (Coordenação entre Religadores).
+
+  4. Das especificações da Energisa: Parâmetros e diretrizes das normas ETU-107.1, ETU-122.1 e ETU-127.
+
+Com base estritamente nesse cruzamento, gere um conjunto abrangente de Flashcards Técnicos de Revisão (formato FRENTE e VERSO).
+
+Formato exigido:
+FRENTE: [Pergunta técnica direta e específica]
+VERSO: [Resposta técnica detalhada, citando os critérios operacionais das Aulas 5 e 6, conceitos do Mamede ou parâmetros das ETUs da Energisa]
+
+Foque na aplicação prática de engenharia, seletividade, componentes de manobra e comportamento das curvas.
+
 ### Perguntas e Respostas – Análise Flashcards
 
 1. Quantos flashcards foram gerados?
