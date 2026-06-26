@@ -153,13 +153,21 @@ Não use questões puramente conceituais ou óbvias. Foque em cenários de anál
 
 ## Vídeo Complementar
 
-### Prompt
-
 ### Perguntas e Respostas – Análise Vídeo Complementar
 
 1. Qual vídeo foi escolhido e por que ele chamou sua atenção?
+
+   Resposta: O vídeo escolhido para esta etapa foi a videoaula intitulada "Religadores" sobre ajuste de Religadores, ministrada pelo professor Delberis de Araújo Lima no YouTube (<https://www.youtube.com/watch?v=BA8TwhHY2OQ>). 
+   
+   Me chamou atenção por tratar da coordenação entre religadores e elos fusíveis, e a parametrização das curvas tempo-corrente do religador.
+
 2. O vídeo complementou ou aprofundou algum aspecto que não foi suficientemente explorado pelo NotebookLM?
+  
+   Resposta: Aprofundou o conhecimento de aspectos da parametrização das curvas tempo-corrente, principalmente o tipo de curva (Característica de Atuação) e TMS (Time Multiplier Setting). Além de explicar a coordenação do religador com os elos fusíveis.
+
 3. Houve alguma divergência ou diferença de abordagem entre o vídeo e os materiais utilizados no NotebookLM?
+   
+   Resposta: Não foram encontradas divergências conceituais entre os materiais. No entanto, houve uma clara diferença na abordagem: enquanto os documentos textuais processados no NotebookLM focaram em diretrizes teóricas, tabelas normativas e regras matemáticas de coordenação, o vídeo seguiu um formato de aula prática. Nele, o professor utilizou um software de simulação computacional de curvas tempo-corrente para demonstrar dinamicamente o comportamento do religador em coordenação com os elos fusíveis, permitindo averiguar o ajuste da proteção de forma visual e interativa.
 
 \newpage
 
