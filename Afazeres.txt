@@ -3,12 +3,12 @@
 ===================================================================
 TRABALHO: Trabalho 4 - Proteção em Redes de Distribuição com IA
 ESTUDANTE: Sergio Pedro
-ÚLTIMA ATUALIZAÇÃO: 23/06/2026
+ÚLTIMA ATUALIZAÇÃO: 25/06/2026
 
 LEGENDA DE SÍMBOLOS:
   [ ] Tarefa pendente (não iniciada)
   [/] Tarefa em andamento
-  [X] Tarefa concluída
+  [x] Tarefa concluída
   [!] Atenção / Ponto crítico
 
 ===================================================================
@@ -35,13 +35,13 @@ LEGENDA DE SÍMBOLOS:
     [/] Avaliar se as questões mediram adequadamente o conteúdo técnico
     [ ] Redigir a seção correspondente no 'Trabalho_4.qmd' (Prompt + Análise)
 
-[ ] ETAPA 4: VÍDEO COMPLEMENTAR
-    [ ] Pesquisar e selecionar um vídeo técnico de qualidade no YouTube sobre o tema
-    [ ] Assistir ao vídeo fazendo anotações sobre pontos extras ou divergências
-    [ ] Justificar a escolha do vídeo e o motivo de ter chamado a atenção
-    [ ] Identificar o que o vídeo aprofundou que a IA não explorou bem
-    [ ] Apontar divergências ou diferenças de abordagem entre o vídeo e o NotebookLM
-    [ ] Redigir a seção correspondente no 'Trabalho_4.qmd' (Prompt + Análise)
+[x] ETAPA 4: VÍDEO COMPLEMENTAR
+    [x] Pesquisar e selecionar um vídeo técnico de qualidade no YouTube sobre o tema
+    [x] Assistir ao vídeo fazendo anotações sobre pontos extras ou divergências
+    [x] Justificar a escolha do vídeo e o motivo de ter chamado a atenção
+    [x] Identificar o que o vídeo aprofundou que a IA não explorou bem
+    [x] Apontar divergências ou diferenças de abordagem entre o vídeo e o NotebookLM
+    [x] Redigir a seção correspondente no 'Trabalho_4.qmd' (Prompt + Análise)
 
 [ ] ETAPA 5: REFLEXÃO FINAL E CONCLUSÃO
     [ ] Comparar a eficiência dos 4 recursos (texto, flashcards, teste e vídeo)
