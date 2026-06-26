@@ -3,7 +3,7 @@
 ===================================================================
 TRABALHO: Trabalho 4 - Proteção em Redes de Distribuição com IA
 ESTUDANTE: Sergio Pedro
-ÚLTIMA ATUALIZAÇÃO: 25/06/2026
+ÚLTIMA ATUALIZAÇÃO: 26/06/2026
 
 LEGENDA DE SÍMBOLOS:
   [ ] Tarefa pendente (não iniciada)
@@ -19,21 +19,21 @@ LEGENDA DE SÍMBOLOS:
     [x] Carregar todos os documentos no NotebookLM
     [x] Estruturar as citações no arquivo 'Quarto/bibliografia.bib'
 
-[/] ETAPA 2: FLASHCARDS (NOTEBOOKLM)
+[x] ETAPA 2: FLASHCARDS (NOTEBOOKLM)
     [x] Gerar os flashcards no NotebookLM sobre proteção (elos fusíveis e religadores)
-    [/] Estudar os cartões e extrair o texto/dados gerados para a pasta 'Data/'
-    [/] Contabilizar o total de flashcards gerados
-    [/] Identificar quais conceitos apareceram com maior frequência
-    [/] Avaliar criticamente a utilidade dos flashcards para a revisão
-    [/] Redigir a seção correspondente no 'Trabalho_4.qmd' (Prompt + Análise)
+    [x] Estudar os cartões e extrair o texto/dados gerados para a pasta 'Data/'
+    [x] Contabilizar o total de flashcards gerados
+    [x] Identificar quais conceitos apareceram com maior frequência
+    [x] Avaliar criticamente a utilidade dos flashcards para a revisão
+    [x] Redigir a seção correspondente no 'Trabalho_4.qmd' (Prompt + Análise)
 
-[/] ETAPA 3: TESTE DE CONHECIMENTO (NOTEBOOKLM)
+[x] ETAPA 3: TESTE DE CONHECIMENTO (NOTEBOOKLM)
     [x] Gerar o questionário com no mínimo 10 questões no NotebookLM
-    [/] Responder ao teste e salvar as perguntas e respostas na pasta 'Data/'
-    [/] Contabilizar o número de acertos
-    [/] Mapear os assuntos e conceitos que apresentaram maior dificuldade
-    [/] Avaliar se as questões mediram adequadamente o conteúdo técnico
-    [ ] Redigir a seção correspondente no 'Trabalho_4.qmd' (Prompt + Análise)
+    [x] Responder ao teste e salvar as perguntas e respostas na pasta 'Data/'
+    [x] Contabilizar o número de acertos
+    [x] Mapear os assuntos e conceitos que apresentaram maior dificuldade
+    [x] Avaliar se as questões mediram adequadamente o conteúdo técnico
+    [x] Redigir a seção correspondente no 'Trabalho_4.qmd' (Prompt + Análise)
 
 [x] ETAPA 4: VÍDEO COMPLEMENTAR
     [x] Pesquisar e selecionar um vídeo técnico de qualidade no YouTube sobre o tema
@@ -43,12 +43,12 @@ LEGENDA DE SÍMBOLOS:
     [x] Apontar divergências ou diferenças de abordagem entre o vídeo e o NotebookLM
     [x] Redigir a seção correspondente no 'Trabalho_4.qmd' (Prompt + Análise)
 
-[ ] ETAPA 5: REFLEXÃO FINAL E CONCLUSÃO
-    [ ] Comparar a eficiência dos 4 recursos (texto, flashcards, teste e vídeo)
-    [ ] Listar as principais vantagens e limitações da IA para o estudo de engenharia
-    [ ] Justificar a aplicação (ou não) dessa metodologia em outras disciplinas
-    [ ] Escrever a introdução e a conclusão do relatório no 'Trabalho_4.qmd'
-    [ ] Revisar a formatação das referências bibliográficas
+[x] ETAPA 5: REFLEXÃO FINAL E CONCLUSÃO
+    [x] Comparar a eficiência dos 4 recursos (texto, flashcards, teste e vídeo)
+    [x] Listar as principais vantagens e limitações da IA para o estudo de engenharia
+    [x] Justificar a aplicação (ou não) dessa metodologia em outras disciplinas
+    [x] Escrever a introdução e a conclusão do relatório no 'Trabalho_4.qmd'
+    [x] Revisar a formatação das referências bibliográficas
 
 ===================================================================
                      COMENTÁRIOS E NOTAS DE CAMPO
@@ -63,4 +63,5 @@ LEGENDA DE SÍMBOLOS:
   - Entradas BibTeX geradas e adicionadas à biblioteca.
 * 22/06/2026: Restringir os capítulos nas fontes, antes de gerar os prompts.
 * 23/06/2026: Selecionar video, introdução e fontes.
+* 26/06/2026: flashcards e REFLEXÃO FINAL
 ===================================================================
