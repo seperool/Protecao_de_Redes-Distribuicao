@@ -36,14 +36,6 @@ csl: Quarto/abnt.csl
 \tableofcontents
 ```
 
-\newpage
-
-```{=latex}
-\setcounter{tocdepth}{4}
-\renewcommand{\listfigurename}{LISTA DE FIGURAS}
-\listoffigures
-```
-
 ```{python}
 #| echo: false
 #| error: false
@@ -62,15 +54,37 @@ import json
 
 # INTRODUÇÃO
 
-\newpage
+A confiabilidade e a continuidade no fornecimento de energia em redes de distribuição de média tensão dependem diretamente da eficiência do sistema de proteção contra sobrecorrentes. Como a maioria dos distúrbios em redes aéreas é de caráter transitório — causados por eventos temporários como descargas atmosféricas ou contato de galhos de árvores —, a atuação coordenada entre religadores automáticos e chaves fusíveis é fundamental. Essa coordenação evita interrupções permanentes desnecessárias nos consumidores e garante que apenas o trecho afetado da rede seja isolado em caso de defeitos permanentes.
 
-# METODOLOGIA (O uso da IA com fontes controladas)
+O dimensionamento e o ajuste desses dispositivos exigem a análise de curvas tempo-corrente, fatores de velocidade dos elos fusíveis e critérios práticos das concessionárias. Diante do grande volume de normas e conceitos envolvidos, este estudo utiliza a inteligência artificial através da plataforma NotebookLM como suporte metodológico, facilitando a organização e a análise crítica de todo o conteúdo.
+
+O objetivo deste trabalho foi integrar os conceitos teóricos das aulas(@slides_aula5_elo_fusivel, @slides_aula6_religador) e da literatura de João Mamede Filho (@mamede2013manual) com os requisitos práticos das normas da Energisa (ETU-107.1(@Energisa2026Religador), ETU-122.1(@Energisa2024ChaveFusivel) e ETU-127(@Energisa2023EloFusivel)). Essa base de dados foi utilizada no NotebookLM para gerar recursos de apoio ao estudo, como flashcards e testes de conhecimento. Por fim, incluiu-se a análise de um vídeo do YouTube (@lima_religadores_youtube) para avaliar se o conhecimento técnico estudado com o auxílio da inteligência artificial estava alinhado com o conteúdo do vídeo técnico apresentado.
 
 \newpage
 
 # DESENVOLVIMENTO
 
 ## Fontes
+
+Para a construção da base de conhecimento e execução das atividades, foram utilizados materiais de caráter teórico, normativo e prático. A integração dessas fontes permitiu confrontar a teoria com o que é aplicado no dia a dia das redes de distribuição. Os materiais utilizados foram:
+
+   * Literatura Técnico de Referência: Capítulos específicos do livro Manual de Equipamentos Elétricos, de João Mamede Filho, com foco nos critérios teóricos de dimensionamento de elos fusíveis, curvas características de religadores e princípios de seletividade.
+  
+   * Notas de Aula da Disciplina de Distribuição de Energia Elétrica:
+     
+     * Aula 5 - Elo Fusível: Notas e slides de aula do professor Paulo Victor de Souza Borges, focados nos princípios de funcionamento, características de fusão e critérios de coordenação entre elos fusíveis.
+  
+     * Aula 6 - Religadores: Notas e slides de aula do professor Paulo Victor de Souza Borges, cobrindo os princípios de operação do equipamento, ciclos de religamento e as regras de coordenação entre religador e elo fusível.
+  
+   * Especificações Técnicas da Concessionária (Energisa):
+  
+     * ETU-107.1: Religador de Circuito Automático Trifásico Para Subestação de Distribuição (SED) até 36,2 kV — Requisitos normativos, parâmetros de ensaio e fabricação para os religadores da distribuidora.
+     
+     * ETU-122.1: Chave fusível para redes de distribuição até 36,2 kV — Padronização e critérios técnicos para a aplicação de chaves fusíveis.
+     
+     * ETU-127: Elo-fusível de distribuição — Especificações, curvas e características dos elos utilizados na proteção do sistema.
+   
+   * Vídeo Técnico Complementar: Videoaula intitulada "Religadores", ministrada pelo professor Delberis de Araújo Lima no YouTube (https://www.youtube.com/watch?v=BA8TwhHY2OQ), focada na coordenação prática de curvas tempo-corrente via software de simulação.
 
 \newpage
 
@@ -108,10 +122,23 @@ Foque na aplicação prática de engenharia, seletividade, componentes de manobr
 
 1. Quantos flashcards foram gerados?
    
-   Resposta: 72 cartões
+   **Resposta**: 72 cartões.
 
 2. Quais conceitos apareceram com mais frequência?
+
+   * Componentes da Chave Fusível
+   * Tipos de Elos Fusíveis (H, K, T)
+   * Religadores Automáticos e Ciclos de Operação
+   * Coordenação de Proteção Religador-Elo
+   * Coordenação de Proteção Elo-Elo
+   * Ferramentas de Manobra (Vara e Loadbuster)
+   * Especificações Técnicas Energisa (ETU-127, ETU-107.1)
+
 3. Os flashcards foram úteis para revisar o conteúdo? Justifique.
+
+   **Resposta**: Os flashcards foram úteis principalmente para revisar a parte teórica da matéria, ajudando na fixação dos conceitos de coordenação (tanto elo-elo quanto religador-elo fusível), além dos tipos de equipamentos, componentes e as características das curvas tempo-corrente.
+   
+   Por outro lado, a ferramenta não se mostrou eficiente para a parte de cálculo. Além disso, o processo de revisão das respostas exigiu uma avaliação crítica constante para filtrar o que eram perguntas realmente pertinentes e o que eram questionamentos específicos demais, que fugiam do escopo prático da disciplina.
 
 \newpage
 
@@ -145,9 +172,24 @@ Não use questões puramente conceituais ou óbvias. Foque em cenários de anál
 
 ### Perguntas e Respostas – Análise Teste de Conhecimento
 
-1. Quantas questões você acertou?
+1. Quantas questões você acertou? 
+   
+   **Resposta**: 7 de 10.
+
 2. Quais assuntos apresentaram maior dificuldade?
+
+   **Resposta**: As maiores dificuldades estiveram concentradas em questões que extrapolaram o escopo conceitual da disciplina devido à inclusão das normas técnicas reais da distribuidora (Energisa) na base de conhecimento, algumas perguntas, por mais que o prompt delimitasse o conteúdo, extrapolaram a profundidade exigida pela matéria. 
+  
+   No caso foram:
+
+     * **Especificações Técnicas Energisa** (**ETU**), detalhes normativos muito específicos e parâmetros rígidos de fabricação/ensaios contidos nas **ETUs-107.1**, **122.1** e **127**;
+     * **Suportabilidade Térmica de Condutores**.
+
 3. As questões avaliaram adequadamente os conceitos estudados? Explique.
+
+   **Resposta**: Sim, o teste avaliou os conceitos de forma satisfatória, mas com ressalvas importantes quanto à calibração do escopo.
+   
+   O teste apresentou a limitação de "alucinar" ou hiperfocar em minúcias dos manuais técnicos práticos, demonstrando dificuldade em se manter estritamente limitado ao conteúdo da matéria e avançando para análises de nível de projeto avançado.
 
 \newpage
 
@@ -157,17 +199,17 @@ Não use questões puramente conceituais ou óbvias. Foque em cenários de anál
 
 1. Qual vídeo foi escolhido e por que ele chamou sua atenção?
 
-   Resposta: O vídeo escolhido para esta etapa foi a videoaula intitulada "Religadores" sobre ajuste de Religadores, ministrada pelo professor Delberis de Araújo Lima no YouTube (<https://www.youtube.com/watch?v=BA8TwhHY2OQ>). 
+   **Resposta**: O vídeo escolhido para esta etapa foi a videoaula intitulada "Religadores" sobre ajuste de Religadores, ministrada pelo professor Delberis de Araújo Lima no YouTube (<https://www.youtube.com/watch?v=BA8TwhHY2OQ>). 
    
    Me chamou atenção por tratar da coordenação entre religadores e elos fusíveis, e a parametrização das curvas tempo-corrente do religador.
 
 2. O vídeo complementou ou aprofundou algum aspecto que não foi suficientemente explorado pelo NotebookLM?
   
-   Resposta: Aprofundou o conhecimento de aspectos da parametrização das curvas tempo-corrente, principalmente o tipo de curva (Característica de Atuação) e TMS (Time Multiplier Setting). Além de explicar a coordenação do religador com os elos fusíveis.
+   **Resposta**: Aprofundou o conhecimento de aspectos da parametrização das curvas tempo-corrente, principalmente o tipo de curva (Característica de Atuação) e TMS (Time Multiplier Setting). Além de explicar a coordenação do religador com os elos fusíveis.
 
 3. Houve alguma divergência ou diferença de abordagem entre o vídeo e os materiais utilizados no NotebookLM?
    
-   Resposta: Não foram encontradas divergências conceituais entre os materiais. No entanto, houve uma clara diferença na abordagem: enquanto os documentos textuais processados no NotebookLM focaram em diretrizes teóricas, tabelas normativas e regras matemáticas de coordenação, o vídeo seguiu um formato de aula prática. Nele, o professor utilizou um software de simulação computacional de curvas tempo-corrente para demonstrar dinamicamente o comportamento do religador em coordenação com os elos fusíveis, permitindo averiguar o ajuste da proteção de forma visual e interativa.
+   **Resposta**: Não foram encontradas divergências conceituais entre os materiais. No entanto, houve uma clara diferença na abordagem: enquanto os documentos textuais processados no NotebookLM focaram em diretrizes teóricas, tabelas normativas e regras matemáticas de coordenação, o vídeo seguiu um formato de aula prática. Nele, o professor utilizou um software de simulação computacional de curvas tempo-corrente para demonstrar dinamicamente o comportamento do religador em coordenação com os elos fusíveis, permitindo averiguar o ajuste da proteção de forma visual e interativa.
 
 \newpage
 
@@ -176,8 +218,20 @@ Não use questões puramente conceituais ou óbvias. Foque em cenários de anál
 ## Perguntas e Respostas
 
 1. Entre os recursos utilizados (texto, flashcards, teste e vídeo), qual foi o mais eficiente para sua aprendizagem? Justifique.
+
+   **Resposta**: Os recursos mais eficientes para a fundamentação foram os slides de aula do professor e o livro-texto do Mamede, que serviram como base sólida para a matéria. O vídeo também foi muito bom pelo seu caráter visual, ajudando bastante na explicação e na revisão dos conceitos.
+
+   A maior surpresa positiva foram os flashcards, que se mostraram ótimos para revisar a matéria em seus detalhes teóricos. Em contrapartida, houve uma decepção com o teste automático: foi muito difícil mantê-lo dentro do escopo real da disciplina, embora tenha ajudado um pouco nos momentos em que funcionou corretamente.
+
 2. Quais são as principais vantagens e limitações do uso de IA como ferramenta de estudo para temas técnicos?
+
+   * **Vantagens**: A principal vantagem é a velocidade na pesquisa, o cruzamento de informações e a capacidade de resumir grandes quantidades de dados e textos rapidamente. Ela se mostra excelente para gerar materiais de apoio e fixação teórica — como os próprios flashcards, podcasts, infográficos e testes —, que funcionam como ótimas ferramentas de auxílio ao estudo.
+
+   * **Limitações**: A desvantagem crítica aparece quando há cálculos envolvidos, tabelas complexas, gráficos ou bancos de dados de grande importância. Nesses casos, não dá para confiar cegamente nas respostas da IA, tornando-se obrigatório consultar os materiais de referência oficiais sempre que possível ou necessário para validar as informações.
+
 3. Você utilizaria essa metodologia em outras disciplinas? Por quê?
+
+   **Resposta**: Sim, utilizaria essa metodologia em outras disciplinas, mas com critérios bem definidos. Ela é excelente para matérias que demandam muita leitura e conceitos teóricos densos, pois os recursos de resumo, infográficos, flashcards e consulta rápida ajudam a digerir o conteúdo mais rápido. No entanto, para disciplinas puramente práticas ou com forte carga de cálculo e tabelas normativas, o método seria aplicado apenas como um apoio inicial, mantendo o foco principal nos livros-texto, notas de aula e resoluções manuais.
 
 \newpage
 
